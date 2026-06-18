@@ -143,17 +143,19 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
 Benefits of Blue-Green Deployment:
-Zero Downtime Deployment
-Easy Rollback
-Safer Releases
-Reduced Risk
+
+Zero Downtime Deployment,
+Easy Rollback,
+Safer Releases,
+Reduced Risk,
 Better User Experience
 
 Technologies Used:
-Amazon Web Services ECS
-Amazon Web Services ECR
-Jenkins
-Docker
-GitHub
-Python Flask
+
+Amazon Web Services ECS,
+Amazon Web Services ECR,
+Jenkins,
+Docker,
+GitHub,
+Python Flask,
 Application Load Balancer (ALB)
