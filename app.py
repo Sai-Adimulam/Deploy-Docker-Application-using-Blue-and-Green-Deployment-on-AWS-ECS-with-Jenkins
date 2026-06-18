@@ -1,3 +1,4 @@
+
 from flask import Flask
 
 app = Flask(__name__)
@@ -5,8 +6,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return """
-    <h1>Blue Environment - Version 1</h1>
-    <p>Application deployed successfully.</p>
+    <h1>Green Environment - Version 2</h1>
+    <p>New version deployed successfully.</p>
     """
 
 @app.route('/health')
